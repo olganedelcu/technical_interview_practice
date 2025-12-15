@@ -25,7 +25,10 @@ function App() {
         type="text" 
         placeholder="Search planets..." 
         value={search} 
-        onChange={(e) => setSearch(e.target.value)}
+        onChange={(e) => {
+          setSearch(e.target.value);
+          setPage(1);
+        }}
       />
       <div>{planets.map((planet, index) => 
         {return <p key={index}>{planet.name}</p>})}</div>
