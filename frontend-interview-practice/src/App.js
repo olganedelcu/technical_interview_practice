@@ -31,18 +31,15 @@ function App() {
           setPage(1);
         }}
       />
-      <div>
+      <div style={{display: 'flex', flexWrap: 'wrap'}}>
         {planets.map((planet, index) => {
           return (
-            <p key={index}>
-              {planet.name}
+            <div key={index} style={{border: '1px solid black', margin: '10px', padding: '10px', flex: '1 1 300px'}}>
+              <h3>{planet.name}</h3>
               <p>Climate: {planet.climate}</p>
               <p>Terrain: {planet.terrain}</p>
-              <p>
-                Population:
-                {planet.population}
-              </p>
-            </p>
+              <p>Population: {planet.population}</p>
+            </div>
           );
         })}
       </div>
