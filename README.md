@@ -40,3 +40,43 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+
+
+More to practice:
+  Data Operations:
+  - Loading state - show "Loading..." while
+  fetching
+  - Error handling - try/catch for failed
+  requests
+  - Sorting - sort planets by name,
+  population, etc.
+  - Filtering - filter by climate type (arid,
+   temperate, etc.)
+
+  UI Operations:
+  - Modal/details view - click planet to see
+  full details
+  - Toggle view - switch between grid/list
+  layout
+  - Favorites - heart icon to save favorite
+  planets
+  - Clear search - X button to reset search
+
+  Form Operations:
+  - Add new planet - form with validation
+  - Edit planet - inline editing
+  - Delete planet - remove from list
+
+  Advanced State:
+  - useReducer - complex state management
+  - Custom hooks - extract fetch logic
+  - Context - share data between components
+  - Local storage - persist
+  favorites/preferences
+
+  Performance:
+  - Debounced search - delay API calls while
+  typing
+  - Memoization - useMemo/useCallback
+  - Virtual scrolling - handle large lists
+
